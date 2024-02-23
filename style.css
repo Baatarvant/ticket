@@ -1,0 +1,107 @@
+/* Regular Styles */
+@font-face {
+  font-family: "GIP";
+  src: url("./fonts/GIP-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GIP";
+  src: url("./fonts/GIP-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GIP";
+  src: url("./fonts/GIP-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Continue adding @font-face rules for other regular styles... */
+
+/* Italic Styles */
+@font-face {
+  font-family: "GIP";
+  src: url("./fonts/GIP-BlackItalic.otf") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "GIP";
+  src: url("./fonts/GIP-ExtraBoldItalic.otf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "GIP";
+  src: url("./fonts/GIP-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+html,
+body {
+  height: 297mm;
+  width: 210mm;
+  font-family: "GIP", sans-serif;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ticketWrapper {
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  top: 170px;
+  left: 54px;
+  font-weight: 700;
+  font-size: 21px;
+  margin: 0;
+}
+
+.program {
+  position: absolute;
+  top: 245px;
+  left: 54px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.room {
+  position: absolute;
+  top: 245px;
+  left: 150px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.seat {
+  position: absolute;
+  top: 245px;
+  left: 243px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.class {
+  position: absolute;
+  top: 245px;
+  left: 327px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
